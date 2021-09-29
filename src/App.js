@@ -13,6 +13,8 @@ import User from "./components/User";
 // const LazyComponent = React.lazy(() => import("./components/Lazy"));
 // import Parent from "./components/forwardRef/Parent";
 // import Greeting from "./components/Greeting";
+import ClassCounter from "./components/reduxComp/ClassCounter";
+import FunctionalCounter from "./components/reduxComp/FunctionalCounter";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
 
       {/* <Greeting name={"sg"} /> */}
       <User />
+      {/* <ClassCounter /> */}
+      {/* <FunctionalCounter /> */}
     </div>
   );
 }

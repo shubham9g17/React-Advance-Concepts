@@ -7,8 +7,9 @@ import {
 
 export const fetchUsers = () => (dispatch) => {
   dispatch(fetchUsersRequest());
+
   axios
-    .get("https://jsonplaceholder.typicode.com/users")
+    .get("https://jsonplaceholder.typicode.com/users11")
     .then((response) => {
       const users = response.data;
       dispatch(fetchUsersSuccess(users));
